@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Prosto+One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html,
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-family: 'Prosto One', cursive;
+  font-family: 'Montserrat', cursive;
   font-size: 3rem;
 }
 
