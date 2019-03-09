@@ -105,9 +105,9 @@ h6 {
 --------------------------------------------------
  O NUCLEO
 -------------------------------------------------- */
-#O-Nucleo{
+/*#O-Nucleo{
 	height: 750px;
-}
+}*/
 .zoom{
 	overflow: hidden;
 }
@@ -135,10 +135,10 @@ h6 {
  PORTIFÓLIO/PROJETOS
 -------------------------------------------------- */
 
-#projetos {
+/*#projetos {
   height: 768px;
 }
-
+*/
 
 .tablet {
   display: flex;
