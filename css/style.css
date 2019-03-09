@@ -108,15 +108,26 @@ h6 {
 /*#O-Nucleo{
 	height: 750px;
 }*/
+.fundo-quemsomos {
+  display: flex;
+  background: white;
+  height: 530px;
+  padding: 40px;
+  margin: auto;
+}
+#imagem-quemsomos{
+	margin: auto;
+}
+
 .zoom{
 	overflow: hidden;
 }
 
 .zoom img{
 	max-width: 100%;
-	-moz-transition: all 0.3s;
-	-webkit-transition: all 0.3s;
-	transition: all 0.3s;
+	-moz-transition: all 1s;
+	-webkit-transition: all 1s;
+	transition: all 1s;
 }
 
 .zoom:hover img{
@@ -125,6 +136,16 @@ h6 {
 	transform: scale(1.1);
 }
 
+.bg-escuro {
+	background: #252525;
+	display: flex;
+	border-radius: 25px;
+	padding: 20px;
+	margin: auto;
+}
+.texto-direita{
+	text-align: right;
+}
 /*
 --------------------------------------------------
  SERVIÇOS
@@ -148,17 +169,6 @@ h6 {
   padding: 60px;
 }
 
-.fundo-quemsomos {
-  display: flex;
-  background: white;
-  height: 530px;
-  padding: 60px;
-
-}
-
-#img-quemsomos {
-  float: right;
-}
 
 /*
 --------------------------------------------------
