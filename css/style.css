@@ -108,16 +108,40 @@ h6 {
 /*#O-Nucleo{
 	height: 750px;
 }*/
-.fundo-quemsomos {
-  display: flex;
-  background: white;
-  height: 530px;
-  padding: 40px;
-  margin: auto;
+@media (min-width: 320px) {
+	 .fundo-quemsomos {
+	  display: flex;
+	  background: white;
+	  padding: 40px;
+	  margin: auto;
+	}
+	
 }
-#imagem-quemsomos{
-	margin: auto;
+
+@media (min-width: 992px) {
+	 .fundo-quemsomos {
+	  display: flex;
+	  background: white;
+	  height: 530px;
+	  padding: 40px;
+	  padding-top: 60px;
+	  padding-right: 80px;
+	  margin: auto;
+	}
+
+	.cards>div:nth-child(odd) {
+	 margin-bottom: 2vh;
+	}
+	.cards>div:nth-child(even) {
+	 margin-left: -150px;
+	 z-index: 2;
+	}
+	 .cards>div:nth-child(3) {
+	 z-index: 3;
+	}
+
 }
+
 
 .zoom{
 	overflow: hidden;
@@ -195,18 +219,34 @@ h6 {
 -------------------------------------------------- */
 
 /* SM*/
-@media (min-width: 576px) {
+@media (min-width: 320px) {
+	#imagem-quemsomos{
+		padding: 25px 10px 10px 20px;
+		margin: auto;
+	}
+}
 
+@media (min-width: 576px) {
+	#imagem-quemsomos{
+		padding: 25px 20px 20px 60px;
+		margin: auto;
+	}
 }
 
 /* MD*/
 @media (min-width: 768px) {
-
+	#imagem-quemsomos{
+		padding: 40px 20px 25px 60px;
+		margin: auto;
+	}
 }
 
 /* lg*/
 @media (min-width: 992px) {
-
+	#imagem-quemsomos{
+		padding: 25px 20px 25px 20px;
+		margin: auto;
+	}
 }
 
 /* XL*/
