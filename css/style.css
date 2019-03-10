@@ -37,6 +37,7 @@ h6 {
 /*-------------------------padding row--------------------------------------*/
 .row{
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 /*---------------------------------------------------------------*/
 .title-aside-wrapper {
@@ -116,6 +117,19 @@ h6 {
 	  margin: auto;
 	}
 	
+	#texto-missao{
+		color: white;
+		font-weight: ligther;
+		text-align: center;
+		margin-left: auto;
+	}
+
+	#texto-criatividade{
+		color: white; 
+		font-weight: ligther;
+		text-align: center;
+		margin-left: auto;
+	}
 }
 
 @media (min-width: 992px) {
@@ -138,6 +152,22 @@ h6 {
 	}
 	 .cards>div:nth-child(3) {
 	 z-index: 3;
+	}
+	
+	#texto-missao{
+		color: white;
+		font-weight: ligther;
+		font-size: 40px;
+		margin-left: 50px;
+		text-align: left;
+	}
+
+	#texto-criatividade{
+		color: white; 
+		font-weight: ligther;
+		font-size: 40px;
+		margin-left: 305px;
+		text-align: left;
 	}
 
 }
@@ -164,12 +194,32 @@ h6 {
 	background: #252525;
 	display: flex;
 	border-radius: 25px;
-	padding: 20px;
+	padding: 10px;
 	margin: auto;
 }
-.texto-direita{
-	text-align: right;
+
+.bg-patrocine {
+	background: white;
+	display: flex;
+	border-radius: 20px;
+	padding: 10px;
+	margin: auto;
 }
+
+.texto-branco{
+	color: white;
+	margin: auto;
+}
+
+.img-redonda{
+	padding: 30px;
+	margin: auto;
+}
+
+ul { 
+	list-style-image: url('images/image-list.gif'); 
+}
+
 /*
 --------------------------------------------------
  SERVIÇOS
