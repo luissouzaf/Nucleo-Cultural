@@ -72,7 +72,7 @@ h6 {
 
 #logo {
   height: 3.125rem;
-  width: 9.375rem
+  width: 9.375rem;
 }
 
 
@@ -113,7 +113,7 @@ h6 {
 	 .fundo-quemsomos {
 	  display: flex;
 	  background: white;
-	  padding: 40px;
+	  padding: 30px;
 	  margin: auto;
 	}
 	
@@ -129,6 +129,14 @@ h6 {
 		font-weight: ligther;
 		text-align: center;
 		margin-left: auto;
+	}
+	
+	.bg-escuro {
+	background: #252525;
+	display: flex;
+	border-radius: 25px;
+	padding: 10px;
+	margin: auto;
 	}
 }
 
@@ -157,19 +165,24 @@ h6 {
 	#texto-missao{
 		color: white;
 		font-weight: ligther;
-		font-size: 40px;
-		margin-left: 50px;
+		margin-left: 60px;
 		text-align: left;
 	}
 
 	#texto-criatividade{
 		color: white; 
 		font-weight: ligther;
-		font-size: 40px;
-		margin-left: 305px;
-		text-align: left;
+		margin-right: 60px;
+		text-align: right;
 	}
 
+	.bg-escuro {
+	background: #252525;
+	display: flex;
+	border-radius: 25px;
+	padding: 30px;
+	margin: auto;
+	}
 }
 
 
@@ -194,7 +207,7 @@ h6 {
 	background: #252525;
 	display: flex;
 	border-radius: 25px;
-	padding: 10px;
+	padding: 30px;
 	margin: auto;
 }
 
@@ -202,7 +215,7 @@ h6 {
 	background: white;
 	display: flex;
 	border-radius: 20px;
-	padding: 10px;
+	padding: 20px;
 	margin: auto;
 }
 
@@ -211,13 +224,14 @@ h6 {
 	margin: auto;
 }
 
-.img-redonda{
-	padding: 30px;
-	margin: auto;
-}
 
 ul { 
 	list-style-image: url('images/image-list.gif'); 
+}
+
+.imagem-redesociais{
+	height: 60px;
+	width: 60px;
 }
 
 /*
@@ -242,7 +256,6 @@ ul {
   height: 530px;
   padding: 60px;
 }
-
 
 /*
 --------------------------------------------------
@@ -274,6 +287,11 @@ ul {
 		padding: 25px 10px 10px 20px;
 		margin: auto;
 	}
+	
+	.img-redonda{
+	padding: 20px;
+	margin: auto;
+	}
 }
 
 @media (min-width: 576px) {
@@ -289,13 +307,40 @@ ul {
 		padding: 40px 20px 25px 60px;
 		margin: auto;
 	}
+	
+	.img-redonda{
+	padding: 10px;
+	margin: auto;
+	}
+	
+	.rounded-circle{
+		margin-left: 25px;
+	}
+	
+	.zoom{
+		padding-left: 30px;
+	}
 }
+
 
 /* lg*/
 @media (min-width: 992px) {
 	#imagem-quemsomos{
 		padding: 25px 20px 25px 20px;
 		margin: auto;
+	}
+	
+	.img-redonda{
+	padding: 20px;
+	margin: auto;
+	}
+	
+	.rounded-circle{
+		margin-left: 0px;
+	}
+	
+	.zoom{
+		padding-left: 0px;
 	}
 }
 
