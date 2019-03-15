@@ -282,6 +282,10 @@ ul {
   padding: 60px;
 }
 
+.branco{
+	color: white;
+}
+
 /*
 --------------------------------------------------
  PARCEIROS
@@ -296,9 +300,6 @@ ul {
 --------------------------------------------------
  FOOTER
 -------------------------------------------------- */
-
-
-
 
 
 /*
@@ -317,12 +318,35 @@ ul {
 	padding: 20px;
 	margin: auto;
 	}
+	
+	#logo-vertical {
+	  height: 150px;
+	  margin: 30px 0 30px 30px;
+	}
+
+	.rodape{
+		padding:20px 10px 0 10px;
+	}
+
 }
 
 @media (min-width: 576px) {
 	#imagem-quemsomos{
 		padding: 25px 20px 20px 60px;
 		margin: auto;
+	}
+	
+	#logo-vertical {
+	  height: 250px;
+	  margin: 30px 0 30px 70px;
+	}
+
+	.rodape{
+		padding:30px 30px 0 30px;
+	}
+
+	#seta-cima{
+		margin-left:30px;
 	}
 }
 
