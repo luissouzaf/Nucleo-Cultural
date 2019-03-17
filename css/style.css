@@ -143,12 +143,15 @@ h6 {
 	}
 	
 	.imagem-redesociais{
+	height: 30px;
+	width:30px;
 	margin: auto;
 	}
 	
 	.seta-baixo{
 		margin: auto;
 		padding-top: 10px;
+		width:30px;
 	}
 }
 
