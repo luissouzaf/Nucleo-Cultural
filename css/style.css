@@ -141,8 +141,6 @@ h6 {
 	}
 	
 	.imagem-redesociais{
-		height: 30px;
-		width:30px;
 		margin: auto;
 	}
 	
@@ -198,8 +196,6 @@ h6 {
 	}
 	
 	.imagem-redesociais{
-	height: 50px;
-	width:50px;
 	margin: auto;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -318,11 +314,6 @@ ul {
   width:120px;
 }
 
-::-webkit-input-placeholder  { color:white; }
-
-.cor-branca:-webkit-input-placeholder  { color:white; }
-input:-moz-placeholder { color:white; }
-textarea:-moz-placeholder { color:white; }
 
 /*
 --------------------------------------------------
