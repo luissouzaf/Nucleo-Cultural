@@ -107,14 +107,12 @@ h6 {
 --------------------------------------------------
  O NUCLEO
 -------------------------------------------------- */
-/*#O-Nucleo{
-	height: 750px;
-}*/
+
 @media (min-width: 320px) {
 	 .fundo-quemsomos {
 	  display: flex;
 	  background: white;
-	  padding: 30px;
+	  padding: 15px;
 	  margin: auto;
 	}
 	
@@ -135,23 +133,23 @@ h6 {
 	}
 	
 	.bg-escuro {
-	background: #252525;
-	display: flex;
-	border-radius: 25px;
-	padding: 10px;
-	margin: auto;
+		background: #252525;
+		display: flex;
+		border-radius: 25px;
+		padding: 10px;
+		margin: auto;
 	}
 	
 	.imagem-redesociais{
-	height: 30px;
-	width:30px;
-	margin: auto;
+		height: 30px;
+		width:30px;
+		margin: auto;
 	}
 	
 	.seta-baixo{
 		margin: auto;
 		padding-top: 10px;
-		width:30px;
+		/*height:30px;*/
 	}
 }
 
@@ -298,6 +296,33 @@ ul {
 --------------------------------------------------
  CONTATO
 -------------------------------------------------- */
+.margin-auto{
+	margin:auto;
+}
+
+.mensagem-margin{
+	margin-top:25px;
+}
+
+.formulario
+{
+  background-color:#de4e2c;
+  color:white;
+}
+
+#enviar
+{
+  background-color:#de4e2c;
+  color:white;
+  border-radius:25px;
+  width:120px;
+}
+
+::-webkit-input-placeholder  { color:white; }
+
+.cor-branca:-webkit-input-placeholder  { color:white; }
+input:-moz-placeholder { color:white; }
+textarea:-moz-placeholder { color:white; }
 
 /*
 --------------------------------------------------
