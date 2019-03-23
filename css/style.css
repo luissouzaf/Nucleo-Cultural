@@ -109,6 +109,15 @@ h6 {
 -------------------------------------------------- */
 
 @media (min-width: 320px) {
+	
+	.branco{
+		color: white;
+	}
+
+	.laranja{
+		color: #fe7e00;
+	}
+	
 	 .fundo-quemsomos {
 	  display: flex;
 	  background: white;
@@ -252,7 +261,7 @@ h6 {
 
 
 ul { 
-	list-style-image: url('images/image-list.gif'); 
+	list-style-type: none;
 }
 
 
@@ -277,10 +286,6 @@ ul {
   padding: 20px;
   height: 530px;
   padding: 60px;
-}
-
-.branco{
-	color: white;
 }
 
 /*
@@ -340,7 +345,7 @@ ul {
 	
 	#logo-vertical {
 	  height: 150px;
-	  margin: 30px 0 30px 30px;
+	  margin-top: 20px
 	}
 
 	.rodape{
@@ -356,8 +361,8 @@ ul {
 	}
 	
 	#logo-vertical {
-	  height: 250px;
-	  margin: 30px 0 30px 70px;
+	  height: 200px;
+	  margin: 30px 0 30px 30px;
 	}
 
 	.rodape{
