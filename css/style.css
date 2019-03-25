@@ -293,12 +293,30 @@ ul {
  PARCEIROS
 -------------------------------------------------- */
 /* carousel 
+.multi-carousel {
+	opacity: 0;
+	padding: 0 25px;
+}
+.multi-carousel .carousel-control-next,
+.multi-carousel .carousel-control-prev {
+	width: 25px;
+	background: gray;    
+}/*
+.multi-carousel {
+	opacity: 0;
+	padding: 0 25px;
+}
+.multi-carousel .carousel-control-next,
+.multi-carousel .carousel-control-prev {
+	width: 25px;
+	background: gray;    
+}
 .media-carousel 
 {
   margin-bottom: 0;
   padding: 0 40px 30px 40px;
   margin-top: 30px;
-}
+}*/
 /* Previous button  
 .media-carousel .carousel-control.left 
 {
@@ -345,6 +363,12 @@ ul {
   width: 250px;
   height: 100px
 }
+
+h2{
+  text-align:center;
+  padding: 20px;
+}
+/* Slider */
 /* End carousel */
 /*
 --------------------------------------------------
