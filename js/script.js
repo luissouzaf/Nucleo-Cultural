@@ -6,7 +6,7 @@ $(document).ready(function () {
 });	
 
 $(document).ready(function () {
-  var $element = $('#O-Nucleo');
+  var $element = $('#nucleo-title-aside');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
@@ -29,7 +29,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  var $element = $('#servicos');
+  var $element = $('#servicos-title-aside');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  var $element = $('#projetos');
+  var $element = $('#projetos-title-aside');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
@@ -78,7 +78,7 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  var $element = $('#parceiros');
+  var $element = $('#parceiros-title-aside');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
@@ -101,7 +101,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  var $element = $('#contato');
+  var $element = $('#contato-title-aside');
   var $follow = $element.find('.title-aside-wrapper');
   var followHeight = $element.find('.title-aside-wrapper').outerHeight();
   var height = $element.outerHeight();
