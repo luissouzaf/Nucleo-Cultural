@@ -447,7 +447,7 @@ margin: auto;
 @media (min-width: 992px) {
 
 	#imagem-quemsomos{
-		padding: 1.5635rem 1.25rem 1.5625rem 1.4rem;
+		padding: 2.4rem 1.9rem 1rem 1.4rem;
 		margin: auto;
 	}
 	
@@ -472,7 +472,7 @@ margin: auto;
 	margin-left: -4.0625rem;
 	}
 
-		 .fundo-quemsomos {
+		.fundo-quemsomos {
 	  display: -webkit-box;
 	  display: -ms-flexbox;
 	  display: flex;
@@ -484,7 +484,7 @@ margin: auto;
 	}
 
 	.cards>div:nth-child(odd) {
-	 margin-bottom: 2vh;
+	 margin-bottom: 3vh;
 	}
 	.cards>div:nth-child(even) {
 	 margin-left: -9.375rem;
