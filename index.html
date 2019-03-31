@@ -15,11 +15,6 @@
 		<!-- BOOTRASTRAP CORE CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 
-		<!-- FONTS -->
-		<link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
-		<!-- regular/bold-->
-
 		<!-- CUSTOM CSS -->
 		<link rel="stylesheet" href="css/style.css">
 		
@@ -35,8 +30,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 	<div class="container">
 			<h1 class="navbar-brand">
-				<a href="#">
-					<img id="logo" src="images/logo-horizontal.svg" alt="Núcleo Cultural Logo">
+				<a href="#home">
+					<img id="logo" src="images/logo-horizontal.svg" alt="Núcleo Cultural">
 				</a>
 			</h1>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,12 +41,12 @@
 		<div class="collapse navbar-collapse " id="navbarResponsive">
 			<ul class="navbar-nav ml-auto text-uppercase justify-content-center">
 				<li class="nav-item">
-					<a class="nav-link" href="#">Home
+					<a class="nav-link" href="#home">Home
 								<span class="sr-only">(current)</span>
 							</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#O-Nucleo">Quem somos</a>
+					<a class="nav-link" href="#nucleo">Quem somos</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#servicos">Serviços</a>
@@ -72,7 +67,7 @@
 <!-- ./Navigation -->
 
 <!-- Slider -->
-<header>
+<header id="home">
 	<div id="carousel-header" class="carousel slide" data-ride="carousel-header">
 		<ol class="carousel-indicators">
 			<li data-target="#carousel-header" data-slide-to="0" class="active"></li>
@@ -138,72 +133,68 @@
 <!-- /.Slider -->
 
 <main role="main">
-<!-- --------------------------------------------------- O Núcleo --------------------------------------------------------------------------- -->
+<!-- O Núcleo -->
 
-	<section id="O-Nucleo" class=" bg-laranja">
+	<section id="nucleo" class=" bg-laranja">
 		<div class="container">
 			<div class="row">
 
-				<div id="nucleo-title-aside" class="col-2 p-0">
+				<div id="nucleo-title-aside" class="col-2 col-lg-1 p-0">
 					<div class="title-aside-wrapper">
-						<h2 class="text-uppercase title-aside m-0 p-0">O NÚCLEO</h2>
+						<h2 class=" text-uppercase title-aside m-0 p-0 branco">o núcleo</h2>
 					</div>
 				</div>
 				<!--------------------------------------- Quem Somos ----------------------------------------------->
-				<div class="col-10 col-lg-10">
+				<div class="col-10 col-lg-11">
 
 					<div class="row cards">
 						<div class="fundo-quemsomos col-11 col-lg-7" >
 							<div class="text-align ">
-								<p><b>O Núcleo</b></p>
-								<h1>QUEM SOMOS</h1>
-								<p><b>Núcleo Cultural</b> é uma startup voltada à elaboração e desenvolvimento de projetos culturais. Sua atuação engloba diferentes fases produtivas do setor: criação e inscrição de propostas em editais e leis de incentivo cultural; captação de recursos; execução dos projetos; prestação de contas; divulgação de ações culturais; agenciamento de artistas.</p>
+								<p class="font-weight-bold">O Núcleo</p>
+								<h3>QUEM SOMOS</h3>
+								<p><span class="font-weight-bold">Núcleo Cultural</span> é uma startup voltada à elaboração e desenvolvimento de projetos culturais. Sua atuação engloba diferentes fases produtivas do setor: criação e inscrição de propostas em editais e leis de incentivo cultural; captação de recursos; execução dos projetos; prestação de contas; divulgação de ações culturais; agenciamento de artistas.</p>
 									
 								<div class="row">
-									<div class="col-3 col-md-2 imagem-redesociais">
-										<a href="https://www.facebook.com/nucleoculturalbrasil" target="_blank">
-											<!--<img src="images/facebook.svg" alt="Facebook">-->
-											<span style="font-size: 2.3rem; color: #fe7e00;">
-												<i class="fab fa-facebook-square"></i>
-											</span>
-										</a>
-									</div>
-									<div class="col-3 col-md-2 imagem-redesociais">
-										<a href="https://www.instagram.com/nucleocultralbrasil/" target="_blank">
-											<!--<img src="images/instagram.svg" alt="Instagram">-->
-											<span style="font-size: 2.3rem; color: #fe7e00;">
-												<i class="fab fa-instagram"></i>
-											</span>
-										</a>
-									</div>
-									<div class="col-3 col-md-2 imagem-redesociais">
-										<a href="https://www.youtube.com/channel/UCHaG5NCZR07j8255sZCYcyA/featured" target="_blank">
-											<!--<img src="images/youtube.svg" alt="Youtube">-->
-											<span style="font-size: 2.3rem; color: #fe7e00;">
-												<i class="fab fa-youtube-square"></i>
-											</span>
-										</a>
-									</div>
-									<div class="col-3 col-md-2 imagem-redesociais">
-										<a href="https://pt.linkedin.com/company/nucleoculturalproducoes" target="_blank">
-											<!--<img src="images/linkedin.svg" alt="Linkedin">-->
-											<span style="font-size: 2.3rem; color: #fe7e00;">
-												<i class="fab fa-linkedin"></i>
-											</span>
-										</a>
-									</div><!--/.col-4 col-md-2 imagem-->
+									
+										<div class="col-12">
+											<ul class="m-0 p-0 menu-social d-flex justify-content-center">
+												<li><a class="imagem-redesociais" href="https://www.facebook.com/nucleoculturalbrasil" target="_blank">
+													<span>
+														<i class="fab fa-facebook-square"></i>
+													</span>
+												</a></li>
+
+												<li><a class="imagem-redesociais" href="https://www.instagram.com/nucleocultralbrasil/" target="_blank">
+													<span>
+														<i class="fab fa-instagram"></i>
+													</span>
+												</a></li>
+
+												<li><a class="imagem-redesociais" href="https://www.youtube.com/channel/UCHaG5NCZR07j8255sZCYcyA/featured" target="_blank">
+													<span>
+														<i class="fab fa-youtube-square"></i>
+													</span>
+												</a></li>
+
+												<li><a class="imagem-redesociais" href="https://pt.linkedin.com/company/nucleoculturalproducoes" target="_blank">
+													<span>
+														<i class="fab fa-linkedin"></i>
+													</span>
+												</a></li>
+											</ul>
+										</div><!--/.col-12 col-md-8-->
 								</div><!--/.row-->
 								
 								<div class="row">
-									<div class="col-3 col-md-2 seta-baixo">
+									<div class="col-12 d-flex justify-content-center seta-baixo">
 										<a href="#texto-missao">
-											<span style="font-size: 3rem; color: #fe7e00;">
+											<span>
 												<i class="fas fa-angle-double-down"></i>
 											</span>
 										</a>
 									</div>
 								</div><!--/.row-->
-								
+
 							</div><!--/.text-align-->
 
 						</div><!--/.fundo-quemsomos-->
@@ -218,20 +209,20 @@
 				<!---------------------------------- Missão e Diferencial ------------------------------------------->
 					<div class="row">
 						<div class=" col-11 col-lg-10" id="texto-missao">
-							<h2>Missão e Diferencial</h2>
+							<h3>Missão e Diferencial</h3>
 						</div><!--/.col-10 col-lg-6-->
 						
 						<div class="bg-escuro col-11 col-lg-12">
 							<div class="row">
 								<div class="col-12 col-lg-8 texto-branco">
 									<p>Com a missão de valorizar e difundir bens culturais, democratizando seu acesso e estimulando a pluralidade de ideias, investimos numa abordagem original: apresentamos projetos de impacto social e de comunicação direta com públicos expressivos e diversificados, mas que, ao mesmo tempo, não abrem mão do valor cultural e de acreditar em obras que contam com espaço restrito de veiculação.</p>
-									<p><b> Mas como pretendemos unir essas duas realidades do universo cultural?</b></p> 
-									<p><b>Como popularizar práticas culturais socialmente desprestigiadas?</b></p>
+									<p class="font-weight-bold">Mas como pretendemos unir essas duas realidades do universo cultural?</p> 
+									<p class="font-weight-bold">Como popularizar práticas culturais socialmente desprestigiadas?</p>
 									
 									<div class="row">
-									<div class="col-6 col-sm-4 col-md-2 seta-baixo">
+									<div class="col-4 col-sm-2 col-md-2 col-lg-4 margin-auto seta-baixo">
 										<a href="#texto-criatividade">
-											<span style="font-size: 4rem; color: #fe7e00;">
+											<span>
 												<i class="fas fa-arrow-down"></i>
 											</span>
 										</a>
@@ -242,7 +233,7 @@
 								
 								<div class=" col-10 col-lg-4 img-redonda">
 									<div class="zoom ">
-										<img  class="rounded-circle" src="images/missao-diferencial.png" alt="Criatividade e Estratégia">
+										<img  class="rounded-circle" src="images/missao-diferencial.png" alt="Missão e diferencial">
 									</div><!--/.zoom-->
 								</div><!--/.col-10 col-lg-4-->
 							</div><!--/.row-->
@@ -252,7 +243,7 @@
 				<!---------------------------------- Criatividade e Estratégia ------------------------------------------->
 					<div class="row">
 						<div class=" col-11 col-lg-10" id="texto-criatividade">
-							<h2>Criatividade e Estratégia</h2>
+							<h3>Criatividade e Estratégia</h3>
 						</div><!--/.col-10 col-lg-6-->
 						
 						<div class="bg-escuro col-11 col-lg-12">
@@ -273,24 +264,24 @@
 				<!---------------------------------- Patrocine Projetos ------------------------------------------->
 					<div class="row">
 						<div class=" col-11 col-lg-10 text-center texto-branco" id="texto-patrocine">
-							<h2>Patrocine nossos projetos e valorize sua marca</h2>
+							<h4>Patrocine nossos projetos e valorize sua marca</h4>
 							<p>Promover arte é transformar: tem a ver com mobilizar sonhos e paixões, tem a ver com inspirar; tem tudo a ver com parceria.</p>
 						</div><!--/.col-10 col-lg-10-->
 						
 						<div class="bg-patrocine col-11 col-lg-12">
 							<div class="row">
-								<div class="col-12 col-lg-12 text-align">
+								<div class="col-12 col-lg-12 text-align icones-patrocine">
 									<h4 class="laranja">BOA AÇÃO, BOM NEGÓCIO</h4>
 									<p>Só em 2018, mais de 3 mil organizações investiram perto de 1,3 bilhões em cultura via Lei Rouanet. E mais: o setor cultural nos últimos anos registra crescimento (9,1%) mais elevado do que a média da economia brasileira.</p>
 									<p>Principais vantagens: </p>
-									<ul>
-									  <li><span style="display:inline; color: #fe7e00;"> <i class="fas fa-check-double"></i><b> Valorização da imagem institucional: </b></span></li>
+									<ul class="m-0 p-0">
+									  <li><span class="font-weight-bold"> <i class="fas fa-check-double"></i> Valorização da imagem institucional: </span></li>
 									  <p>Relacionar o nome da empresa a ações publicamente admiradas;</p>
-									  <li><span style="display:inline; color: #fe7e00;"> <i class="fas fa-check-double"></i><b> Aproximação com o público: </b></span></li>
+									  <li><span class="font-weight-bold"> <i class="fas fa-check-double"></i> Aproximação com o público: </span></li>
 									  <p>Estabelecer uma relação de identidade entre organização e sociedade, impactando comunidades locais;</p>
-									  <li><span style="display:inline; color: #fe7e00;"> <i class="fas fa-check-double"></i><b> Expansão da marca: </b></span></li>
+									  <li><span class="font-weight-bold"> <i class="fas fa-check-double"></i> Expansão da marca: </span></li>
 									  <p>Divulgar a atuação da organização por meio de ações publicitárias envolvidas no projeto patrocinado;</p>
-									  <li><span style="display:inline; color: #fe7e00;"> <i class="fas fa-check-double"></i><b> Dedução de impostos: </b></span></li>
+									  <li><span class="font-weight-bold"> <i class="fas fa-check-double"></i> Dedução de impostos: </span></li>
 									  <p>A Lei Rouanet garante o abatimento total ou parcial do valor investido no projeto cultural via isenção fiscal.</p>
 									</ul>
 								</div><!--/.col-10-->	
@@ -303,56 +294,54 @@
 		</div><!--/.container-->
 	</section>
 	
-	<!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- /.O Núcleo -->
 
 <!-- Serviços -->
 <section id="servicos">
 	<div class="container">
 		<div class="row">
-			<div class="col-2 p-0" id="servicos-title-aside" >
+			<div class="col-2 col-lg-1 p-0" id="servicos-title-aside" >
 				<div class="title-aside-wrapper">
-					<h2 class="title-aside m-0 p-0">serviços</h2>
+					<h2 class="text-uppercase title-aside m-0 p-0">serviços</h2>
 				</div>
 					
 			</div> <!--/.col-2-->
 
-			<div class="col-10 col-lg-10">
+			<div class="col-10 col-lg-11">
 				<div class="row">
-					<div class="col-12 col-lg-4 text-center servicos-item hyphenate">
+					<div class="col-12 col-sm-6 col-lg-4 text-center servicos-item hyphenate">
 						<img  class="" src="images/editais-e-leis-de-incentivo.svg" alt="">
-						<h2 class="texto-laranja">Editais e Leis de Incentivo</h2>
+						<h3 class="texto-laranja">Editais e Leis de Incentivo</h3>
 						<p>criamos e/ou formatamos projetos concorrentes a seleções públicas e privadas, via edital ou leis de incentivo à cultura.</p>
 					</div>
 
-					<div class="col-12 col-lg-4 text-center servicos-item hyphenate">
+					<div class="col-12  col-sm-6 col-lg-4 text-center servicos-item hyphenate">
 						<img  class="" src="images/desenvolvimento-de-projetos-culturais.svg" alt="">
-						<h2 class="texto-laranja">Desenvolvimento de Projetos Culturais</h2>
+						<h3 class="texto-laranja">Desenvolvimento de Projetos Culturais</h3>
 						<p>executamos projetos de impacto social através da cultura, coordenando todas as fases produtivas (pré-produção, produção e pós-produção).</p>
 					</div>
 
-					<div class="col-12 col-lg-4 text-center servicos-item hyphenate">
+					<div class="col-12 col-sm-6 col-lg-4 text-center servicos-item hyphenate">
 						<img  class="" src="images/marketing-cultural.svg" alt="">
-						<h2 class="texto-laranja">Marketing Cultural</h2>
+						<h3 class="texto-laranja">Marketing Cultural</h3>
 						<p>realizamos planejamento de mídia a partir da configuração de cada projeto cultural e dos objetivos específicos do patrocinador.</p>
 					</div>
-				</div><!--/.row-->
 
-				<div class="row">
-					<div class="col-12 col-lg-4 text-center servicos-item hyphenate">
+					<div class="col-12 col-sm-6 col-lg-4 text-center servicos-item hyphenate">
 						<img  class="" src="images/gestao-de-responsabilidade-social.svg" alt="">
-						<h2 class="texto-laranja">Gestão de Responsabilidade Social</h2>
+						<h3 class="texto-laranja">Gestão de Responsabilidade Social</h3>
 						<p>gerenciamento estratégico do setor, planejando as áreas de atuação e selecionando projetos de acordo com os princípios das organizações parceiras.</p>
 					</div>
 
-					<div class="col-12 col-lg-4 text-center servicos-item hyphenate">
+					<div class="col-12 col-sm-6 col-lg-4 text-center servicos-item hyphenate">
 						<img  class="" src="images/divulgacao-de-eventos-culturais.svg" alt="">
-						<h2 class="texto-laranja">Divulgação de Eventos Culturais</h2>
+						<h3 class="texto-laranja">Divulgação de Eventos Culturais</h3>
 						<p>veiculação por meio de mídias sociais, a fim de promover ações voltadas à cultura.</p>
 					</div>
 
-					<div class="col-12 col-lg-4 text-center servicos-item hyphenate">
+					<div class="col-12 col-sm-6 col-lg-4 text-center servicos-item hyphenate">
 						<img  class="rounded-circle" src="images/agenciamento-de-artistas.svg" alt="">
-						<h2 class="texto-laranja">Agenciamento de Artistas</h2>
+						<h3 class="texto-laranja">Agenciamento de Artistas</h3>
 						<p>captação de recursos, elaboração de portfólios e releases, suporte administrativo, divulgação das obras, produção de eventos.</p>
 					</div>
 				</div><!--/.row-->
@@ -367,13 +356,13 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-2 p-0" id="projetos-title-aside">
+			<div class="col-2 col-lg-1 p-0" id="projetos-title-aside">
 				<div class="title-aside-wrapper">
-					<h2 class="title-aside m-0 p-0">projetos</h2>
+					<h2 class="text-uppercase title-aside m-0 p-0 branco">projetos</h2>
 				</div>	
 			</div> <!--/.col-2-->
 
-			<div class="col-10 col-lg-10">
+			<div class="col-10 col-lg-11">
 				<div class="tablet bg-dark">
 					<!--Carousel Wrapper-->
 					<div id="carousel-projetos" class="carousel slide" data-ride="carousel-projetos">
@@ -474,20 +463,20 @@
 	<div class="container">
 		<div class="row">
 
-			<div class="col-2 p-0" id="parceiros-title-aside">
+			<div class="col-2 col-lg-1 p-0" id="parceiros-title-aside">
 				<div class="title-aside-wrapper">
 					<h2 class="text-uppercase title-aside m-0 p-0">parceiros</h2>
 				</div>
 			</div>
 
-			<div class="col-10">
+			<div class="col-10 col-lg-11 margin-auto">
 				<div class="row">
-					<div class="col-12 col-lg-3">
-						<h2 class="text-center">CLIENTES E PARCEIROS</h2>
+					<div class="col-12 col-lg-3 margin-auto">
+						<h3 class="text-center">CLIENTES E PARCEIROS</h3>
 					</div><!--/.container-->
 					
 
-					<div class="col-md-12 col-lg-9 d-none d-lg-block d-md-block margin-auto">
+					<div class="col-md-12 col-lg-9 d-none d-lg-block d-md-block margin-auto setas-parceiros">
 
 						<div class="carousel slide media-carousel" id="media">
 							<div class="carousel-inner">
@@ -518,11 +507,11 @@
 
 							</div>
 						</div>
-						<a data-slide="prev" href="#media" class="left carousel-control"><span style="display:inline; color: #fe7e00;"><i class="fas fa-chevron-circle-left"></i></span></a>
-						<a data-slide="next" href="#media" class="right carousel-control"><span style="display:inline; color: #fe7e00;"><i class="fas fa-chevron-circle-right"></i></span></a>
+						<a data-slide="prev" href="#media" class="left carousel-control"><span><i class="fas fa-chevron-circle-left"></i></span></a>
+						<a data-slide="next" href="#media" class="right carousel-control"><span><i class="fas fa-chevron-circle-right"></i></span></a>
 					</div>
 					
-					<div class="col-sm-12  d-none d-sm-block d-md-none">
+					<div class="col-sm-12  d-none d-sm-block d-md-none margin-auto setas-parceiros">
 					
 						<div class="carousel slide media-carousel" id="media2">
 							<div class="carousel-inner">
@@ -548,63 +537,81 @@
 							  </div>
 							  
 							  <div class="carousel-item">
-								  <div class="col-sm-5 margin-auto">
-									<img alt="" src="http://placehold.it/150x150">
-								  </div>          
+								<div class="row ">
+									<div class="col-sm-5 margin-auto">
+										<img alt="" src="http://placehold.it/150x150">
+									</div>          
+								</div><!--row-->
 							  </div>
 
 							</div>
 						</div>
-						<a data-slide="prev" href="#media2" class="left carousel-control"><span style="display:inline; color: #fe7e00;"><i class="fas fa-chevron-circle-left"></i></span></a>
-						<a data-slide="next" href="#media2" class="right carousel-control"><span style="display:inline; color: #fe7e00;"><i class="fas fa-chevron-circle-right"></i></span></a>
+						<a data-slide="prev" href="#media2" class="left carousel-control"><span><i class="fas fa-chevron-circle-left"></i></span></a>
+						<a data-slide="next" href="#media2" class="right carousel-control"><span><i class="fas fa-chevron-circle-right"></i></span></a>
 
 					</div>
 					
-					<div class="col-12  d-block d-sm-none ">
+					<div class="col-12 d-block d-sm-none margin-auto">
 					
 						<div class="carousel slide media-carousel" id="media3">
 							<div class="carousel-inner">
 							  <div class="carousel-item  active">
-								  <div class="col-12 margin-auto">
+								<div class="row ">
+								  <div class="col-12 text-center">
 									<img alt="" src="http://placehold.it/150x150">
-								  </div>                
+								  </div>
+								</div><!--row-->
 							  </div>
 							  
 							  <div class="carousel-item">
-								  <div class="col-12 margin-auto">
+								<div class="row ">
+								  <div class="col-12 text-center">
 									<img alt="" src="http://placehold.it/150x150">
-								  </div>             
+								  </div>    
+								</div><!--row-->
 							  </div>
 							  
 							  <div class="carousel-item">
-								  <div class="col-12 margin-auto">
-									<img alt="" src="http://placehold.it/150x150">
-								  </div>             
-							  </div>
-							  
-							  <div class="carousel-item">
-								  <div class="col-12 margin-auto">
-									<img alt="" src="http://placehold.it/150x150">
-								  </div>             
-							  </div>
-							  
-							  <div class="carousel-item">
-								  <div class="col-12 margin-auto">
+								<div class="row ">
+								  <div class="col-12 text-center">
 									<img alt="" src="http://placehold.it/150x150">
 								  </div>             
+								</div><!--row-->
 							  </div>
 							  
 							  <div class="carousel-item">
-								  <div class="col-12 margin-auto">
-									<img alt="" src="http://placehold.it/150x150">            
-								</div>
+								<div class="row ">
+								  <div class="col-12 text-center">
+									<img alt="" src="http://placehold.it/150x150">
+								  </div>   
+								</div><!--row-->
+							  </div>
+							  
+							  <div class="carousel-item">
+								<div class="row ">
+								  <div class="col-12 text-center">
+									<img alt="" src="http://placehold.it/150x150">
+								  </div>        
+								</div><!--row-->
+							  </div>
+							  
+							  <div class="carousel-item">
+								<div class="row ">
+									<div class="col-12 text-center">
+										<img alt="" src="http://placehold.it/150x150">            
+									</div>
+								</div><!--row-->
 							  </div>
 
 							</div>
 						</div>
-						<a data-slide="prev" href="#media3" class="left carousel-control"><span style="display:inline; color: #fe7e00;"><i class="fas fa-chevron-circle-left"></i></span></a>
-						<a data-slide="next" href="#media3" class="right carousel-control"><span style="display:inline; color: #fe7e00;"><i class="fas fa-chevron-circle-right"></i></span></a>
-
+						
+						<div class="row">
+							<div class="col-12 text-center setas-parceiros">
+								<a data-slide="prev" href="#media3" class=" left carousel-control"><span ><i class="fas fa-chevron-circle-left"></i></span></a>
+								<a data-slide="next" href="#media3" class=" right carousel-control"><span><i class="fas fa-chevron-circle-right"></i></span></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div><!--/.col-10-->
@@ -619,16 +626,16 @@
 <section id="contato" class="bg-laranja">
 	<div class="container">
 		<div class="row">
-			<div class="col-2 p-0" id="contato-title-aside"> 
+			<div class="col-2 col-lg-1 p-0" id="contato-title-aside"> 
 				<div class="title-aside-wrapper"> 
-					<h2 class="text-uppercase title-aside m-0 p-0">contato</h2>
+					<h2 class="text-uppercase title-aside m-0 p-0 branco">contato</h2>
 				</div>
 			</div> 
 
-			<div class="col-10">
+			<div class="col-10 col-lg-11">
 
 				<p class="text-center branco">fale conosco</p>
-				<h2 class="text-center branco">Interessado em falar com a gente?</h2>
+				<h4 class="text-center branco">Interessado em falar com a gente?</h4>
 				<p class="text-center branco">Tire suas dúvidas conosco e fique a um pequeno passo de transformar o futuro através da arte!<p>
 
 
@@ -664,73 +671,72 @@
 	
 </main>
 	<!-- FOOTER -->
-		<footer class="rodape container bg-dark col-12">
-			<div class="row">
-				<div class="col-4 col-sm-3 col-lg-3" >
-					<img id="logo-vertical" src="images/logo-vertical.svg" alt="Núcleo Cultural">
-				</div><!--col-10 col-lg-3-->
-				
-				<div class="col-8 col-sm-9 col-lg-4 rodape">
-					<ul>
-						<li><span style="display:inline; color: #fff;"> <i class="fas fa-phone laranja"></i>55 (11) 9.6381-8720</span></li>
-						<li><span style="display:inline; color: #fff;"> <i class="fas fa-phone laranja"></i>55 (11) 9.7289-4967</span></li>
-					</ul>
+		<footer class="rodape bg-dark col-12 footer-margin">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-5 col-md-6 col-lg-3 text-center" >
+						<img id="logo-vertical" src="images/logo-vertical.svg" alt="Núcleo Cultural">
+					</div><!--col-10 col-lg-3-->
 					
-					<ul>
-						<li><span style="display:inline; color: #fff;"> <i class="fas fa-map-marker-alt laranja"></i> Rua Francisco Alves, 31</span></li>
-						<p><span style="display:inline; color: #fff;">  Suzano</span></p>
-						<p><span style="display:inline; color: #fff;">  São Paulo, Brasil</span></p>
-					</ul>
+					<div class="col-10 col-sm-7 col-md-6 col-lg-4 rodape text-center rodape-info">
+						<ul>
+							<li><span> <i class="fas fa-phone laranja"></i>55 (11) 9.6381-8720</span>
+							</li>
+							<li><span> <i class="fas fa-phone laranja"></i>55 (11) 9.7289-4967</span>
+							</li>
+						</ul>
+						
+						<ul>
+							<li><span> <i class="fas fa-map-marker-alt laranja"></i> Rua Francisco Alves, 31</span></li>
+							<p><span>  Suzano</span></p>
+							<p><span>  São Paulo, Brasil</span></p>
+						</ul>
+						
+					</div><!--col-3 col-lg-3-->
+						
+					<div class="col-12 col-sm-12 col-md-12 col-lg-4 justify-content-center">
+						<p class="text-center rodape branco"> Siga-nos nas redes sociais </p>
+						<div class="row rodape d-flex">
+							<div class="col-12">
+								<ul class="m-0 p-0 menu-social d-flex justify-content-center">
+									<li><a class="imagem-redesociais" href="https://www.facebook.com/nucleoculturalbrasil" target="_blank">
+										<span>
+											<i class="fab fa-facebook-square"></i>
+										</span>
+									</a></li>
+
+									<li><a class="imagem-redesociais" href="https://www.instagram.com/nucleocultralbrasil/" target="_blank">
+										<span>
+											<i class="fab fa-instagram"></i>
+										</span>
+									</a></li>
+
+									<li><a class="imagem-redesociais" href="https://www.youtube.com/channel/UCHaG5NCZR07j8255sZCYcyA/featured" target="_blank">
+										<span>
+											<i class="fab fa-youtube-square"></i>
+										</span>
+									</a></li>
+
+									<li><a class="imagem-redesociais" href="https://pt.linkedin.com/company/nucleoculturalproducoes" target="_blank">
+										<span>
+											<i class="fab fa-linkedin"></i>
+										</span>
+									</a></li>
+								</ul>
+							</div><!--/.col-12 col-md-8-->
+						</div><!--/.row rodape-->
+							<p class="text-center rodape branco">contato@nucleocultural.com </p>
+					</div><!--/col-12 col-->
 					
-				</div><!--col-3 col-lg-3-->
-					
-				<div class="col-7 col-lg-4">
-					<p class="text-center rodape branco"> Siga-nos nas redes sociais </p>
-					<div class="row rodape">
-						<div class="col-3 col-md-2 imagem-redesociais">
-							<a href="https://www.facebook.com/nucleoculturalbrasil/" target="_blank">
-								<!--<img src="images/facebook.svg" alt="Facebook">-->
-								<span style="font-size: 2.5rem; color: #fe7e00;">
-									<i class="fab fa-facebook-square"></i>
-								</span>
-							</a>
-						</div>
-						<div class="col-3 col-md-2 imagem-redesociais">
-							<a href="https://www.instagram.com/nucleocultralbrasil/" target="_blank">
-								<!--<img src="images/instagram.svg" alt="Instagram">-->
-								<span style="font-size: 2.5rem; color: #fe7e00;">
-									<i class="fab fa-instagram"></i>
-								</span>
-							</a>
-						</div>
-						<div class="col-3 col-md-2 imagem-redesociais">
-							<a href="https://www.youtube.com/channel/UCHaG5NCZR07j8255sZCYcyA/featured" target="_blank">
-								<!--<img src="images/youtube.svg" alt="Youtube">-->
-								<span style="font-size: 2.5rem; color: #fe7e00;">
-									<i class="fab fa-youtube-square"></i>
-								</span>
-							</a>
-						</div>
-						<div class="col-3 col-md-2 imagem-redesociais">
-							<a href="https://pt.linkedin.com/company/nucleoculturalproducoes" target="_blank">
-								<!--<img src="images/linkedin.svg" alt="Linkedin">-->
-								<span style="font-size: 2.5rem; color: #fe7e00;">
-									<i class="fab fa-linkedin"></i>
-								</span>
-							</a>
-						</div><!--/.col-4 col-md-2 imagem-->
-					</div><!--/.row-->
-					<p class="text-center rodape branco">contato@nucleocultural.com </p>
-				</div><!--col-6 col-lg-6-->
-				
-				<a href="#" ><span style="font-size: 4rem; color: #808080;"><i class="fas fa-arrow-circle-up"></i></span></a>
+					<div class="col-12 col-sm-12 col-lg-1 text-center seta-footer">
+						<a href="#home" ><span><i class="fas fa-arrow-circle-up text-center"></i></span></a>
+					</div>
+				</div><!--row-->
 				
 				<div class="col-12">
-					<!--<div class="row">-->
-						<p class="text-center branco">&copy; 2018-2019 Núcleo Cultural, Inc. &middot; </p>
-					<!--</div>	-->
+						<p class="text-center laranja">&copy; 2018-2019 Núcleo Cultural, Inc. </p>
 				</div>
-			</div><!--row-->
+			</div>
 		</footer>
 </main>
 

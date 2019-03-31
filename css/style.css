@@ -10,6 +10,9 @@ Version: 1.0
 --------------------------------------------------
  GLOBAL STYLES
 -------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100);
+
 body {
   font-family: 'Raleway', sans-serif;
   font-size: 16px;
@@ -37,7 +40,7 @@ h6 {
 
 /*TEMP STYLES*/
 
-#projetos, #servicos, #parceiros, #contato, #O-Nucleo {
+#projetos, #servicos, #parceiros, #contato, #nucleo {
   padding-bottom: 2rem;
   padding-top: 2rem;
 }
@@ -65,21 +68,11 @@ h6 {
 
 .title-aside {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 100!important;
+  font-weight: 100 !important;
   -webkit-transform: translate3d(0, 0, 0);
-    /*transform: rotate(90deg);
-    transform-origin: 255% 55% 0;
-    -webkit-transform: rotate(90deg);
-    -webkit-transform-origin: 255% 55% 0;
-    -moz-transform: rotate(90deg);
-    -moz-transform-origin: 255% 55% 0;*/
-    /*transform-origin: top left 0;*/
-    /*font-size:.9rem;*/
     -webkit-writing-mode: vertical-lr;
         -ms-writing-mode: tb-lr;
             writing-mode: vertical-lr;
-    font-weight: 300;
-/*    background: pink;*/
     font-size: 3rem;
     width: 3rem;
   -webkit-perspective: 1000;
@@ -116,7 +109,7 @@ h6 {
 
 #carousel-header .carousel-item {
   height: 100vh;
-  min-height: 350px;
+  min-height: 21.875rem;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -124,124 +117,67 @@ h6 {
   background-size: cover;
 }
 
-/* Carousel base class */
-#carousel-header {
-  margin-bottom: 4rem;
-}
-
 
 /*
 --------------------------------------------------
  O NUCLEO
 -------------------------------------------------- */
-@media (min-width: 320px) {
-	
-	.branco{
-		color: white;
-	}
 
-	.laranja{
-		color: #fe7e00;
-	}
-	
-	 .fundo-quemsomos {
-	  display: flex;
-	  background: white;
-	  padding: 15px;
-	  margin: auto;
-	}
-	
-	#texto-missao{
-		color: white;
-		font-weight: ligther;
-		text-align: center;
-		padding-top: 30px;
-		margin-left: auto;
-	}
-
-	#texto-criatividade{
-		color: white; 
-		font-weight: ligther;
-		text-align: center;
-		margin-left: auto;
-		padding-top: 40px;
-	}
-	
-	.bg-escuro {
-		background: #252525;
-		display: flex;
-		border-radius: 25px;
-		padding: 10px;
-		margin: auto;
-	}
-	
-	.imagem-redesociais{
-		margin: auto;
-	}
-	
-	.seta-baixo{
-		margin: auto;
-		padding-top: 10px;
-		/*height:30px;*/
-	}
+.branco{
+	color: white;
 }
 
-@media (min-width: 992px) {
-	 .fundo-quemsomos {
-	  display: flex;
-	  background: white;
-	  height: 530px;
-	  padding: 40px;
-	  padding-top: 60px;
-	  padding-right: 80px;
-	  margin: auto;
-	}
+.laranja{
+	color: #fe7e00;
+}
 
-	.cards>div:nth-child(odd) {
-	 margin-bottom: 2vh;
-	}
-	.cards>div:nth-child(even) {
-	 margin-left: -150px;
-	 z-index: 2;
-	}
-	 .cards>div:nth-child(3) {
-	 z-index: 3;
-	}
-	
-	#texto-missao{
-		color: white;
-		font-weight: ligther;
-		margin-left: 60px;
-		text-align: left;
-	}
+ .fundo-quemsomos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: white;
+  padding: 0.9375rem;
+  margin: auto;
+}
 
-	#texto-criatividade{
-		color: white; 
-		font-weight: ligther;
-		margin-right: 60px;
-		text-align: right;
-	}
+#texto-missao{
+	color: white;
+	font-weight: ligther;
+	text-align: center;
+	padding-top: 1.875rem;
+	margin-left: auto;
+}
 
-	.bg-escuro {
+#texto-criatividade{
+	color: white; 
+	font-weight: ligther;
+	text-align: center;
+	margin-left: auto;
+	padding-top: 2.5rem;
+}
+
+.bg-escuro {
 	background: #252525;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	border-radius: 25px;
-	padding: 30px;
+	border-radius: 1.5625rem;
+	padding: 0.625rem;
 	margin: auto;
-	}
-	
-	.imagem-redesociais{
-	margin: auto;
-	padding-left: 10px;
-	padding-right: 10px;
-	}
-	
-	.seta-baixo{
-	margin: auto;
-	padding-top: 30px;
-	}
 }
 
+.imagem-redesociais{
+	padding-left: 0.1rem;
+	padding-right: 0.550rem;
+}
+
+.seta-baixo span{
+font-size: 3rem; 
+color: #fe7e00;
+}
+.seta-baixo{
+	padding-top: 0.625rem;
+}
 
 .zoom{
 	overflow: hidden;
@@ -249,30 +185,34 @@ h6 {
 
 .zoom img{
 	max-width: 100%;
-	-moz-transition: all 1s;
 	-webkit-transition: all 1s;
+	-o-transition: all 1s;
 	transition: all 1s;
 }
 
 .zoom:hover img{
-	-moz-transform: scale(1.1);
 	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	    transform: scale(1.1);
 }
 
 .bg-escuro {
 	background: #252525;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	border-radius: 25px;
-	padding: 30px;
+	border-radius: 1.5625rem;
+	padding: 1.875rem;
 	margin: auto;
 }
 
 .bg-patrocine {
 	background: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	border-radius: 20px;
-	padding: 20px;
+	border-radius: 1.25rem;
+	padding: 1.25rem;
 	margin: auto;
 }
 
@@ -282,7 +222,7 @@ h6 {
 }
 
 #texto-patrocine{
-	padding-top: 40px;
+	padding-top: 2.5rem;
 }
 
 
@@ -290,6 +230,34 @@ ul {
 	list-style-type: none;
 }
 
+
+.menu-social li{
+	display: inline;
+}
+
+.menu-social li span{
+	font-size: 3rem; 
+	color: #fe7e00;
+}
+
+.menu-social a{
+	text-decoration:none;
+}
+
+.icones-patrocine span{
+	display:inline; 
+	color: #fe7e00;
+}
+
+#imagem-quemsomos{
+	padding: 1.5625rem 0.625rem 0.625rem 1.25rem;
+	margin: auto;
+}
+
+.img-redonda{
+padding: 1.25rem;
+margin: auto;
+}
 
 /*
 --------------------------------------------------
@@ -313,7 +281,7 @@ ul {
 }
 
 .serviços-item p {
-  font-size: 1.25em;
+  font-size: 1.25rem;
 }
 
 /*
@@ -322,12 +290,16 @@ ul {
 -------------------------------------------------- */
 
 #projetos .carousel-item img {
+  min-height: 9.375rem;
+  height: 50vh;
   object-fit: cover;
   -o-object-fit: cover;
 }
 
 #projetos .carousel-caption{
   opacity:0;
+  -webkit-transition:500ms ease-in-out;
+  -o-transition:500ms ease-in-out;
   transition:500ms ease-in-out;
 }
 
@@ -354,7 +326,11 @@ ul {
 --------------------------------------------------
  PARCEIROS
 -------------------------------------------------- */
-
+.setas-parceiros span{
+	display:inline;  
+	font-size: 2rem; 
+	color: #fe7e00;
+}
 /*
 --------------------------------------------------
  CONTATO
@@ -364,7 +340,7 @@ ul {
 }
 
 .mensagem-margin{
-	margin-top:25px;
+	margin-top:1.5625rem;
 }
 
 .formulario
@@ -377,63 +353,64 @@ ul {
 {
   background-color:#de4e2c;
   color:white;
-  border-radius:25px;
-  width:120px;
+  border-radius:1.5625rem;
+  width:7.5rem;
 }
 
 /*
 --------------------------------------------------
  FOOTER
 -------------------------------------------------- */
+.seta-footer span{
+	font-size: 4rem; 
+	color: #808080;
+}
 
+.footer-margin{
+	margin-bottom: -6.25rem;
+}
 
+#logo-vertical {
+  height: 9.375rem;
+  margin-top: 1.875rem;
+}
 
-
-
+.rodape{
+	padding:1.25rem 0.625rem 0 0.625rem;
+}
+.rodape-info span{
+	display:inline; 
+	color: #fff;
+}
 /*
 --------------------------------------------------
  RESPONSIVE CSS
 -------------------------------------------------- */
-@media (min-width: 320px) {
-	#imagem-quemsomos{
-		padding: 25px 10px 10px 20px;
-		margin: auto;
-	}
-	
-	.img-redonda{
-	padding: 20px;
-	margin: auto;
-	}
-	
-	#logo-vertical {
-	  height: 150px;
-	  margin-top: 30px
-	}
 
-	.rodape{
-		padding:20px 10px 0 10px;
-	}
 
-}
 /* SM*/
 @media (min-width: 576px) {
 	#imagem-quemsomos{
-		padding: 25px 20px 20px 60px;
+		padding: 1.5625rem 1.25rem 1.25rem 3.75rem;
 		margin: auto;
 	}
 	
 	#logo-vertical {
-	  height: 200px;
-	  margin: 30px 0 30px 30px;
+	  height: 12.5rem;
+	  margin-top: 1.875rem;
 	}
 
 	.rodape{
-		padding:30px 30px 0 30px;
+		padding:1.875rem 1.875rem 0 1.875rem;
 	}
 
 	#seta-cima{
-		margin-left:30px;
+		margin-left:1.875rem;
 	}
+	
+	#projetos .carousel-item img {
+    height: 40vh;
+  }
 }
 /* MD*/
 @media (min-width: 768px) {
@@ -443,22 +420,26 @@ ul {
 }
 
 #imagem-quemsomos{
-	padding: 40px 20px 25px 60px;
+	padding: 2.5rem 1.25rem 1.5625rem 3.75rem;
 	margin: auto;
 }
 
 .img-redonda{
-padding: 10px;
+padding: 0.625rem;
 margin: auto;
 }
 
 .rounded-circle{
-	margin-left: 25px;
+	margin-left: 1.5625rem;
 }
 
 .zoom{
-	padding-left: 30px;
+	padding-left: 1.875rem;
 }
+
+#projetos .carousel-item img {
+   height: 50vh;
+ }
 
 }
 
@@ -466,21 +447,85 @@ margin: auto;
 @media (min-width: 992px) {
 
 	#imagem-quemsomos{
-		padding: 25px 20px 25px 20px;
+		padding: 1.5635rem 1.25rem 1.5625rem 1.4rem;
 		margin: auto;
 	}
 	
 	.img-redonda{
-	padding: 20px;
+	padding: 1.25rem;
 	margin: auto;
 	}
 	
 	.rounded-circle{
-		margin-left: 0px;
+		margin-left: 0;
 	}
 	
 	.zoom{
-		padding-left: 0px;
+		padding-left: 0;
+	}
+	
+	#projetos .carousel-item img {
+   height: 65vh;
+ }
+ 
+	 .title-aside-wrapper {
+	margin-left: -4.0625rem;
+	}
+
+		 .fundo-quemsomos {
+	  display: -webkit-box;
+	  display: -ms-flexbox;
+	  display: flex;
+	  background: white;
+	  height: 33.125rem;
+	  padding: 3rem;
+	  padding-bottom:0;
+	  padding-right: 5rem;
+	}
+
+	.cards>div:nth-child(odd) {
+	 margin-bottom: 2vh;
+	}
+	.cards>div:nth-child(even) {
+	 margin-left: -9.375rem;
+	 z-index: 2;
+	}
+	 .cards>div:nth-child(3) {
+	 z-index: 3;
+	}
+	
+	#texto-missao{
+		color: white;
+		font-weight: ligther;
+		margin-left: 9.375rem;
+		text-align: left;
+	}
+
+	#texto-criatividade{
+		color: white; 
+		font-weight: ligther;
+		margin-right: 9.375rem;
+		text-align: right;
+	}
+
+	.bg-escuro {
+	background: #252525;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-radius: 1.5625rem;
+	padding: 1.875rem;
+	margin: auto;
+	}
+	
+	.imagem-redesociais{
+	/*margin: auto;*/
+	padding-left: 0.625rem;
+	padding-right: 0.625rem;
+	}
+	
+	.seta-baixo{
+		padding-top: 1.875rem;
 	}
 }
 
@@ -488,4 +533,3 @@ margin: auto;
 @media (min-width: 1200px) {
 
 }
-
